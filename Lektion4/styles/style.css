@@ -1,0 +1,35 @@
+.paragraph{ 
+    color: rgb(3, 4, 3);
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.4);
+    height: 50px;
+
+    border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+    border: 2px solid green;
+}
+
+#background-section {
+    width: 40%;
+    letter-spacing: 10px;
+}
+
+#background-section p{
+    height: auto;
+}
+
+#colors-paragraph{
+    text-decoration: underline;
+    font-family: 'Arial';
+}
+
+#MyLink{
+    text-decoration: none;
+}
+
+[target]{
+    color: orange;
+}

@@ -1,0 +1,47 @@
+.inline-example {
+    display: inline;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.block-example {
+    display: block;
+    border: 1px solid blue;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.inline-block {
+    display: inline-block;
+    border: 1px solid green;
+    padding: 5px;
+    width: 100px;
+}
+
+.relative-ex {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-ex {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed-example {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.static-ex {
+    position: static;
+}
+
+body {
+    height: 2500px;
+}
+

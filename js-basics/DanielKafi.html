@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1>Quiz Title</h1>
+
+        <form name="myForm">
+
+            <fieldset class="myField">
+
+            <p class="success"></p>
+
+            <div class = "visitorInfo">
+                <span class="star">*</span>
+                <input type="text" name="firstName" placeholder="First Name">
+                <p class="error firstname-error"></p>
+            </div>
+
+            <div class = "visitorInfo">
+                <span class="star">*</span>
+                <input type="text" name="lastName" placeholder="Last Name">
+                <p class="error lastname-error"></p>
+            </div>
+
+            <div class = "visitorInfo">
+                <span class="star">*</span>
+                <input type="email" name="email" placeholder="Email">
+                <p class="error email-error"></p>
+            </div>
+
+            <div class="question">
+                <span class="star">*</span>
+                <p>Who is the best player in the world?</p>
+                <select name="q1">
+                    <option value="ronaldo">Ronaldo</option>
+                    <option value="messi">Messi</option>
+                    <option value="neymar">Neymar</option>
+                    <option value="hazard">Hazard</option>
+                    <option value="kane">Kane</option>
+                </select>
+                <p class="error q1-error"></p>
+            </div>
+            
+            <div class="question">
+                <span class="star">*</span>
+                <p>Question 2: What is the capital of France</p>
+                <label><input type="radio" id="right" name="q2" value="Paris"> Paris</label>
+                <label><input type="radio" id="wrong" name="q2" value="London"> London</label>
+                <label><input type="radio" id="wrong" name="q2" value="Berlin"> Berlin</label>
+                <p class="error q2-error"></p>
+            </div>
+
+            <div class="question">
+                <span class="star">*</span>
+                <p>Question 3: What is the capital of Sweden</p>
+                <label><input type="radio" id="right" name="q3" value="Brussel"> Brussel</label>
+                <label><input type="radio" id="wrong" name="q3" value="Madrid"> Madrid</label>
+                <label><input type="radio" id="wrong" name="q3" value="Stockholm"> Stockholm</label>
+                <p class="error q3-error"></p>
+            </div>
+
+            <div class="question">
+                <span class="star">*</span>
+                <p>Question 4: Which of these are car brands:</p>
+                <label><input type="checkbox" name="q4" value="Volkswagen">Volkswagen</label>
+                <label><input type="checkbox" name="q4" value="Yamaha">Yamaha</label>
+                <label><input type="checkbox" name="q4" value="Audi">Audi</label>
+                <p class="error q4-error"></p>
+            </div>
+
+            <div class="question">
+                <span class="star">*</span>
+                <p>Question 5: What is the capital of Norway?</p>
+                <textarea id="q5" name="q5" rows="4" cols="50"></textarea>
+                <p class="error q5-error"></p>
+            </div>
+
+
+
+        </fieldset>
+        
+        
+        
+            
+
+            <button type="submit" name="register-quiz" class="submitbtn" >Submit</button>
+
+
+            
+        </form>    
+
+    <script src="DanielKafi.js"></script>
+</body>
+</html>

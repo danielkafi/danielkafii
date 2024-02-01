@@ -38,8 +38,8 @@ document.forms["myForm"].onsubmit = function(event) {
         return false;
     }
 
-    if (!checkAnswerQ2 || checkAnswerQ2.value !== "Paris") {
-        document.querySelector(".q2-error").innerHTML = "Wrong answer, please try again";
+    if (checkAnswerQ2 && checkAnswerQ2.value !== "Paris") {
+        document.querySelector(".q2-error").innerHTML = "Wrong answer for question 2, please try again";
         document.querySelector(".q2-error").style.display = "block";
         return false;
     }
@@ -76,10 +76,6 @@ document.forms["myForm"].onsubmit = function(event) {
 
 
 }
-
-
-
-   
     
 
 
